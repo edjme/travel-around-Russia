@@ -1,0 +1,33 @@
+.cover {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    max-height: 740px;
+    min-height: 200px;
+    width: 100%;
+    height: 740px;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        width: 100%;
+        min-height: 480px;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        width: 100%;
+        min-height: 200px;
+    }
+}

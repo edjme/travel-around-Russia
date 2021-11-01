@@ -1,0 +1,44 @@
+.header__lang-link {
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    display: flex;
+    margin-left: 18px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+
+.header__lang-link:hover {
+    transition: transform .4s ease-out;
+    opacity: .35;
+}
+
+.header__lang-link:first-child {
+    margin-left: 0; 
+}
+
+@media screen and (max-width: 1279px) {
+    .header__lang-link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__lang-link {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
