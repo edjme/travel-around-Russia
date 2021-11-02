@@ -10,3 +10,9 @@
     list-style: none;
     margin-top: 33px;
 }
+
+@media screen and (max-width: 787px) {
+    .intro__list {
+        margin-top: 34px;
+    }
+}

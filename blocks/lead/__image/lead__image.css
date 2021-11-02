@@ -1,22 +1,11 @@
 .lead__image {
+    margin: 0;
+    padding: 0;
     display: flex;
     width: 100%;
+    height: 100%;
     max-width: 984px;
     height: 100%;
-    margin-bottom: 8px;
-    padding: 0;
-}
-
-@media screen and (max-width: 1279px) {
-    .lead__image {
-        
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .lead__image {
-        margin: 0 0 8px;
-        padding: 0;
-    }
+    margin: 0 0 8px;
+    object-fit: cover;
 }

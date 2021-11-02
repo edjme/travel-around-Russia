@@ -8,6 +8,8 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0 0px 92px;
+    display: flex;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 1279px) {

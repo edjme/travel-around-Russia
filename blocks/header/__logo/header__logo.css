@@ -1,7 +1,6 @@
 .header__logo {
     max-width: 176px;
     max-height: 52px;
-    background-image: url('../../../image/__logo.png');
     align-self: flex-start;
 }
 
@@ -12,21 +11,22 @@
 
 @media screen and (max-width: 1279px) {
     .header__logo {
-        max-width: 176px;
-        max-height: 52px;
+        min-width: 176px;
+        min-height: 52px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .header__logo {
-        max-width: 176px;
-        max-height: 52px;
+        min-width: 176px;
+        min-height: 52px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .header__logo {
-        max-width: 142px;
-        max-height: 42px;
+        min-width: 142px;
+        min-height: 42px;
     }
 }
+

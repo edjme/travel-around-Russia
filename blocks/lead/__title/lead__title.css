@@ -8,7 +8,8 @@
     line-height: 100px;
     text-align: center;
     color: #FFF;
-    margin-bottom: 32px;
+    max-width: 720px;
+    margin: 0 auto 32px;
 }
 
 @media screen and (max-width: 767px) {
@@ -16,5 +17,6 @@
         padding-top: 16px;
         font-size: 40px;
         line-height: 44px;
+        max-width: 288px;
     }
 }
